@@ -109,7 +109,12 @@ img {
 	margin: -25px 0 0 0;
 	font-weight: 500;
 	font-size: 60px;
-	color: #FFA000;
+	color: #22AA22;
+}
+
+/****** Content Styling ******/
+#main-item {
+	display: none;
 }
 
 /****** Click Styling ******/
