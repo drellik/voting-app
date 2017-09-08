@@ -35,7 +35,12 @@ module.exports = function (app, passport) {
 		.get(isLoggedIn, function (req, res) {
 			res.sendFile(path + '/public/profile.html');
 		});
-
+		
+    app.route('/addpoll')
+        .get(isLoggedIn, function (req, res) {
+        	res.sendFile(path + '/public/addpoll.html');
+        });
+        
 	app.route('/api/:id')
 		.get(isLoggedIn, function (req, res) {
 			res.json(req.user.github);

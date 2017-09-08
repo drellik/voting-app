@@ -152,6 +152,10 @@ img {
 	color: #212121;
 }
 
+.btn-container a {
+	text-decoration: none;
+}
+
 #click-nbr {
 	font-weight: 400;
 }
